@@ -115,7 +115,7 @@ render((
       <IndexRoute component={Dashboard} />
       <Route path="about" component={About} />
       <Route path="inbox" component={Inbox}>
-        {/* Use /messages/:id instead of messages/:id */}
+        {/* Use /messages/:id instead of inbox/messages/:id */}
         <Route path="/messages/:id" component={Message} />
       </Route>
     </Route>
